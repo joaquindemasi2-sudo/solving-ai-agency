@@ -59,7 +59,7 @@ export default function Book() {
     try {
       const res = await fetch(WEBHOOK_URL, {
         method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
+        headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
         body: JSON.stringify({
           ...form,
           painPoints: form.painPoints.join(', '),
