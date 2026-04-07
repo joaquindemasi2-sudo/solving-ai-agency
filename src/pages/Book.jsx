@@ -1,7 +1,6 @@
 import { useState } from 'react';
 
-// Replace with your real Make.com webhook URL
-const WEBHOOK_URL = 'https://hook.us1.make.com/YOUR_WEBHOOK_ID_HERE';
+const WEBHOOK_URL = 'https://formspree.io/f/mbdpwero';
 
 const LABEL = "block font-mono text-[clamp(0.65rem,0.8vw,0.75rem)] text-[#52525B] uppercase tracking-widest mb-3";
 const INPUT = "w-full bg-gray-50 border border-gray-300 rounded px-3 py-3 font-mono text-sm text-black placeholder:text-black/30 focus:outline-none focus:border-black transition-colors";
