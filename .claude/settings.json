@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:github.com)",
+      "Read(//c/Users/joaqu/**)",
+      "Bash(grep -iE \"\\\\.\\(jpg|jpeg|png|webp\\)$\")",
+      "WebSearch"
+    ],
+    "additionalDirectories": [
+      "C:\\Users\\joaqu\\OneDrive\\Desktop"
+    ]
+  }
+}
